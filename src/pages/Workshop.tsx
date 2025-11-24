@@ -4,7 +4,7 @@ import gingerBread from "../assets/bonhommes-pain-epices-sans-gluten.jpg";
 import crumble from "../assets/crumble.jpg";
 import cookie from "../assets/cookie.jpg";
 
-// Export des données pour WorkshopDetail
+
 export const workshopsData = [
   {
     id: 'christmas-gingerbreads',

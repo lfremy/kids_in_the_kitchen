@@ -12,7 +12,7 @@ const Contact = () => {
          
         </div>
         
-        {/* Informations de contact centrées */}
+
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Nos Coordonnées</h3>

@@ -7,7 +7,7 @@ const WorkshopDetail = () => {
   const { id } = useParams();
   console.log(id)
   
-  // Trouver l'atelier correspondant
+
   const workshop = workshopsData.find(w => w.id === id);
 
   if (!workshop) {
@@ -25,7 +25,7 @@ const WorkshopDetail = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero avec image */}
+
       <section className="pt-20 bg-gradient-to-br from-gray-100 to-blue-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -53,7 +53,7 @@ const WorkshopDetail = () => {
         </div>
       </section>
 
-      {/* Informations pratiques */}
+
       <section className="py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
@@ -62,7 +62,7 @@ const WorkshopDetail = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             
-            {/* Infos générales */}
+
             <div className="bg-gray-50 rounded-xl p-6 space-y-4">
 
               <div className="flex items-center gap-3">
@@ -107,7 +107,7 @@ const WorkshopDetail = () => {
 
             </div>
 
-            {/* Prochaines dates */}
+
             <div className="bg-gradient-to-br from-red-50 to-blue-50 rounded-xl p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Calendar className="h-6 w-6 text-red-600" />
@@ -125,7 +125,7 @@ const WorkshopDetail = () => {
 
           </div>
 
-          {/* Call to action - Réservation */}
+
           <div className="bg-gradient-to-br from-gray-100 to-blue-100 rounded-2xl p-8 text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
               Prêt à réserver ?

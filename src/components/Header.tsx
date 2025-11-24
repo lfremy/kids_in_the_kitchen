@@ -31,7 +31,7 @@ const Header = () => {
             <h2 className="text-2xl font-bold text-gray-800">Kids in the kitchen</h2>
           </div>
 
-          {/* Desktop Navigation */}
+
           <nav className="hidden md:flex space-x-8">
             {navItems.map((item) => {
               const isPreorder = item.label === 'Réservation';
@@ -51,7 +51,7 @@ const Header = () => {
             })}
           </nav>
 
-          {/* Mobile Menu Button */}
+
           <button
             className="md:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -65,7 +65,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
