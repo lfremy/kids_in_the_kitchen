@@ -8,9 +8,9 @@ import cookie from "../assets/cookie.jpg";
 export const workshopsData = [
   {
     id: 'christmas-gingerbreads',
-    title: 'Christmas Gingerbreads',
+    title: 'Gingerbread Men',
     image: gingerBread,
-    description: 'Plonge dans la magie de Noël en préparant de délicieux bonhommes en pain d\'épices ! Dans cet atelier 100% en anglais, les enfants découvrent une recette traditionnelle anglo-saxonne tout en s\'amusant. Ils malaxent la pâte épicée, découpent leurs bonhommes, et les décorent avec des glaçages colorés. Un moment convivial où cuisine et anglais se mélangent naturellement !',
+    description: 'Plongez vos enfants dans la magie de Noël en préparant de délicieux bonhommes en pain d\'épices ! Dans cet atelier 100% en anglais, les enfants découvrent la culture anglo-saxonne tout en s\'amusant. Ils malaxent la pâte épicée, découpent leurs bonhommes, et les décorent avec des glaçages colorés. Un moment convivial où cuisine et anglais se mélangent naturellement ! Chaque enfant repart avec ses créations et un livret d\'activités.',
     dates: [
       'Mercredi 10 décembre 2025 - 14h30',
       'Mercredi 17 décembre 2025 - 14h30',

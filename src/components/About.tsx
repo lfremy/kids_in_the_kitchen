@@ -13,7 +13,7 @@ const About = () => {
             L'anglais s'apprend... en cuisinant !
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Des ateliers cuisine 100% en anglais pour les enfants dès 5 ans. Le mercredi après-midi ou
+            Des ateliers cuisine 100% en anglais pour les enfants dès 5 ans. Le mercredi  ou
             pendant les vacances scolaires, Ludivine transforme la cuisine en terrain de jeu éducatif 
             où l'apprentissage de l'anglais se fait naturellement, les mains dans la pâte.
           </p>
@@ -24,7 +24,7 @@ const About = () => {
             <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto shadow-md">
               <Sparkles className="h-8 w-8 text-red-600" />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 text-center mb-2">
+            <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
               Dès 5 ans
             </h3>
             <p className="text-gray-600 text-center">
@@ -36,7 +36,7 @@ const About = () => {
             <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto shadow-md">
               <Clock className="h-8 w-8 text-blue-600" />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 text-center mb-2">
+            <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
               1h15 d'atelier
             </h3>
             <p className="text-gray-600 text-center">
@@ -48,7 +48,7 @@ const About = () => {
             <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto shadow-md">
               <Users className="h-8 w-8 text-gray-600" />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 text-center mb-2">
+            <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
               4 enfants max
             </h3>
             <p className="text-gray-600 text-center">
@@ -60,11 +60,11 @@ const About = () => {
             <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto shadow-md">
               <Gift className="h-8 w-8 text-red-600" />
             </div>
-            <h3 className="text-xl font-bold text-gray-800 text-center mb-2">
+            <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
               À emporter
             </h3>
             <p className="text-gray-600 text-center">
-              Chaque enfant repart avec sa création
+              Chaque enfant repart avec sa création et un livret d'activités
             </p>
           </div>
         </div>

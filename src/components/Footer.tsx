@@ -12,7 +12,7 @@ const Footer = () => {
               <h2 className="text-2xl font-bold">Kids in the kitchen</h2>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Cours de cuisine en anglais pour les enfants (5-10 ans)
+              Cours de cuisine en anglais pour les enfants (5-11 ans)
             </p>
           </div>
 
@@ -37,25 +37,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-lg mb-4">Suivez-nous</h4>
-            <div className="flex space-x-4">
-              <a 
-                href="#" 
-                className="text-gray-300 hover:text-red-600 transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-6 w-6" />
-              </a>
-              <a 
-                href="#" 
-                className="text-gray-300 hover:text-red-600 transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-6 w-6" />
-              </a>
-            </div>
-          </div>
+         
 
           {/* <div className="flex justify-center lg:justify-start">
             <img 

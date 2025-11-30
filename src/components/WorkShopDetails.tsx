@@ -91,7 +91,7 @@ const WorkshopDetail = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Âge</p>
-                  <p className="text-lg font-semibold text-gray-800">5-10 ans</p>
+                  <p className="text-lg font-semibold text-gray-800">5-11 ans</p>
                 </div>
               </div>
 
@@ -100,8 +100,19 @@ const WorkshopDetail = () => {
                   <Euro className="h-6 w-6 text-green-600" />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-600">Tarif</p>
+                  <p className="text-sm text-gray-600">Tarif Individuel</p>
                   <p className="text-lg font-semibold text-gray-800">20</p>
+                  
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="bg-green-100 p-3 rounded-full">
+                  <Euro className="h-6 w-6 text-green-600" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600">Tarif Fratrie</p>
+                  <p className="text-lg font-semibold text-gray-800">15 pour la deuxieme inscription</p>
+                  
                 </div>
               </div>
 
@@ -109,10 +120,10 @@ const WorkshopDetail = () => {
 
 
             <div className="bg-gradient-to-br from-red-50 to-blue-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <Calendar className="h-6 w-6 text-red-600" />
                 Prochaines dates
-              </h3>
+              </h2>
               <ul className="space-y-3">
                 {workshop.dates.map((date, index) => (
                   <li key={index} className="flex items-start gap-2">
