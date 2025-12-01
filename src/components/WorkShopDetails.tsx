@@ -149,7 +149,7 @@ const WorkshopDetail = () => {
               
               className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
             >
-                06 42 37 21 32
+                06 73 21 32 30
               <Phone className="h-5 w-5" />
 
             </div>

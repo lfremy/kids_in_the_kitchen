@@ -28,7 +28,7 @@ const Hero = () => {
                 className="border-2 border-blue-500 text-blue-500 px-8 py-4 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-all duration-200 text-center flex items-center justify-center gap-2"
               >
                 <Phone className="h-5 w-5" />
-                06 42 37 21 32
+                06 73 21 32 30
               </a>
             </div>
           </div>
