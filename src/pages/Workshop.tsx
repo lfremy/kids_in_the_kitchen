@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import gingerBread from "../assets/bonhommes-pain-epices-sans-gluten.jpg";
 import crumble from "../assets/crumble.jpg";
 import cookie from "../assets/cookie.jpg";
+import muffin from "../assets/muffin.jpg"
 
 
 export const workshopsData = [
@@ -12,12 +13,22 @@ export const workshopsData = [
     image: gingerBread,
     description: 'Plongez vos enfants dans la magie de Noël en préparant de délicieux bonhommes en pain d\'épices ! Dans cet atelier 100% en anglais, les enfants découvrent la culture anglo-saxonne tout en s\'amusant. Ils malaxent la pâte épicée, découpent leurs bonhommes, et les décorent avec des glaçages colorés. Un moment convivial où cuisine et anglais se mélangent naturellement ! Chaque enfant repart avec ses créations et un livret d\'activités.',
     dates: [
-      'Mercredi 10 décembre 2025 - 14h30',
       'Mercredi 17 décembre 2025 - 14h30',
-      'Lundi 22 décembre 2025 - 10h30',
       'Mardi 23 décembre 2025 - 10h30',
-      'Lundi 29 décembre 2025 - 10h30',
       'Mardi 30 décembre 2025 - 10h30',
+    ],
+    available: true,
+    season: 'Décembre 2025',
+  },
+    {
+    id: 'muffin',
+    title: 'Muffins',
+    image: muffin,
+    description: 'Transformez vos enfants en véritables pâtissiers avec notre atelier muffins ! Dans cet atelier 100% en anglais, les petits chefs découvrent le vocabulaire de la cuisine tout en préparant leurs propres muffins moelleux. Un moment ludique où la cuisine et l\'anglais se savourent ensemble ! Chaque enfant repart avec ses créations et un livret d\'activités.',
+    dates: [
+
+      'Lundi 22 décembre 2025 - 10h30',
+      'Lundi 29 décembre 2025 - 10h30',
     ],
     available: true,
     season: 'Décembre 2025',
